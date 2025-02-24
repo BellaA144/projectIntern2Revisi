@@ -1,7 +1,6 @@
 import { supabase } from "./supabaseClient";
 import { v4 as uuidv4 } from "uuid";
 
-
 const bucketName = "books";
 
 // Fungsi untuk mendapatkan daftar buku dengan RLS

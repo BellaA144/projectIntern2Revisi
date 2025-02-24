@@ -1,3 +1,5 @@
+"use client"
+
 import { Suspense } from "react";
 import { Button } from "@mui/material";
 import Link from "next/link";

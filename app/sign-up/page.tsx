@@ -3,9 +3,9 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { signUpUser } from "@/lib/supabase";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/app/components/card";
+import { Input } from "@/app/components/input";
+import { Button } from "@/app/components/button";
 import Link from "next/link";
 
 export default function SignUpPage() {

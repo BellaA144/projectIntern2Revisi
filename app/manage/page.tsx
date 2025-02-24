@@ -1,3 +1,5 @@
+"use client"
+
 import BookPanel from "./bookPanel";
 
 export default function Page() {
